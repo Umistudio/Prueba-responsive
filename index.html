@@ -1,0 +1,36 @@
+<!Doctype html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Index prueba</title>
+
+<SCRIPT LANGUAGE="JavaScript">
+      if (screen.width < 1000 ) {
+        
+        alert("A: Sitio adaptandose a la resolucion menor de 1000.");
+      }
+      if (screen.width >= 960 && screen.width < 1024) {
+        //document.write('<link href="http://uniasturias.net/theme/afterburner/style/afterburner_styles2.css" rel="stylesheet" type="text/css" />');
+        window.location.replace("contenido_general-800.html");
+    
+        alert("A: Sitio adaptandose a la resolucion de >=800 && <960");
+      }
+      if (screen.width >= 768 && screen.width <800) {
+        //document.write('<link href="http://uniasturias.net/theme/afterburner/style/afterburner_styles3.css" rel="stylesheet" type="text/css" />');
+         window.location.replace("contenido-general-tablet.html");
+       
+        alert("A: Sitio adaptandose a la resolucion de >=768 && 800");
+      }
+      if (screen.width >= 320 && screen.width < 768) {
+        //document.write('<link href="http://uniasturias.net/theme/afterburner/style/afterburner_styles4.css" rel="stylesheet" type="text/css" />');
+        window.location.replace("contenido_general-mobile.html");
+        
+        alert("A: Sitio adaptandose a la resolucion de >=320 && <768");
+      }
+  
+</script>
+</head>
+
+<body>
+</body>
+</html>
